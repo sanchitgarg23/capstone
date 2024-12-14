@@ -1,0 +1,330 @@
+body {
+    background-color :black; 
+    margin:0;
+}
+nav {
+    color:white;
+    display:flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    
+}
+.nav-bar h4 {
+    
+    /* padding-left: 10px; */
+    color: #D9E4D7;
+ 
+    line-height:42px ;
+    font-size: 24px;
+    margin-right: auto;
+
+ 
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-left: auto;
+    
+}
+.info a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.info a:hover {
+    color:green;
+}
+/* @media (max-width:480px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+} */
+ 
+  /* Hamburger Menu Styles */
+  /* .hamburger-menu {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color:white;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Optional: Add hover effect */
+  .hamburger-menu:hover span {
+    background-color: #555;
+  } */
+  
+
+
+/* second box */
+
+#hero {
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:90px ;
+}
+
+#hero h2 {
+    color: white;
+    text-align: center;
+    font-size:130px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+#hero img {
+    width:100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.portfolio p {
+    color:#D9E4D7;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.portfolio span {
+    color:#D5EBD19E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px
+}
+.gallery-item p {
+    margin-top:5px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+.gallery-item p:hover {
+    color:green;
+}
+/* what is wrong here */
+.gallery-item span {
+    margin-top: 0px;
+
+
+}
+
+.gallery-item img{
+    width: 100%;
+    border-radius: 22px;
+    margin-top:20px;
+    
+}
+.contact{
+    display: flex;
+    color : white;
+    gap: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+    justify-content : space-between;   
+    margin-top: 20px;
+    
+}
+.contact p{
+    color : #D9E4D7;
+}
+.contact h4{
+    color: #D9E4D7;
+}
+.contact-form{
+    display: grid;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+   
+.submit{
+    width: 200px;
+    height: 30px;
+    background-color: #39FF14;
+    border-radius: 25px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+}
+.skip{
+    font-size: 15px;
+    color: #39FF14;
+}
+.what {
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+    justify-content : space-between; 
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+    #hero h2 {
+        font-size: 100px;
+    }
+
+}
+
+
+/* tab */
+@media (max-width: 768px) {
+    
+    .info {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        margin-left: auto;
+    }
+    .info a {
+        font-size: 18px;
+        margin-left: auto;
+        padding-right:10px;
+    }
+
+    #hero h2 {
+        font-size: 80px;
+    }
+    #hero img {
+        padding:0 30px;
+    }
+
+    .gallery {
+        /* grid-template-columns: fr; */
+        grid-template-rows: 3fr;
+    }
+}
+/* this  is for phone */
+@media (max-width: 480px) {
+    #hero h2 {
+        font-size: 20px;
+    }
+
+    #hero img {
+        padding: 0 10px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        font-size: 14px;
+    }
+
+    .submit {
+        width: 150px;
+        height: 25px;
+    }    
+    .hamburger-menu {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        color:white;
+        
+    }
+    
+    .hamburger-menu div {
+        display: block;
+        height: 4px;
+        width: 30px;
+        background-color:white;
+        border-radius: 2px;
+        margin-top: 7px;
+       
+        
+    }
+}  
+.block1{
+    margin-left: 30px;
+    background-color: #BEE0B81F;
+    height: 70px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.block1 img{
+    border-radius: 50%;
+}
+.about-person{
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 .person1name{
+    color: white;
+    margin-top: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+.block1 .person1pro{
+    color: #D5EBD19E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    padding-bottom: auto;
+    
+}
+.express{
+    display: flex;
+    color: white;
+}
+.person1{
+    display: flex;
+    flex-direction: column;
+}
+.express1 {
+    color:white;
+    margin-top: 20px;
+}
+
+.footer12 {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+
+
+}
