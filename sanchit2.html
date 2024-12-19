@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 
 <body>
     <!-- first flexbox -->
-    <nav>
+    <nav class="navbar">
         <div class="nav-bar">
             <h4>Graffiti</h4>
         </div>
@@ -35,102 +35,84 @@
     <!-- second div box -->
     <section id="hero">
         <h2>Unleash Your Creativity</h2>
-        <img src="https://s3-alpha-sig.figma.com/img/7545/ed69/6bd099861284c3f3896fde0f55d033bc?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EfZOTBlu1UkQoR27lRMh9JVxrWF6Trd9dkUzMALTf1gqyd8jnP1aZvm9~vdkZsEEjFmpvfPvEnkOaCbbdtu4rT0mPtR2PfATGN0OXywnx-COzGVIs3kYQ~Jzb5pwpyu8O0RDtctuJ66yNoWlFeEOEmKeaCs-JTga29Zb-p1VCc6vlC59NRQBICCeFXY1~e9XB9N4r19G~piD2OMgbUhgEKQj21bCdLf10obAypkiik2~wsLZ2s-DPprGH13cCgPUHttPFUhQGccj7JDRaSUKhuT~kh9opfI40pMfQXdgvm89QjXnu-rgkFXYELDjwzRasfYTtOR8Nn50Fs508Mj58Q__"
-            alt="Graffiti Art">
-
+        <div class="img-container">
+            <img id="hero-img" src="photo/hero.png" alt="Graffiti Art">
+        </div>
     </section>
 
     <!-- first main body line -->
 
-    <section class="portfolio">
-        <div class="gallery">
-            <div class='gallery-item'>
-                <img src="https://s3-alpha-sig.figma.com/img/dbe3/d183/b720857768d8469d5511641fc20fae16?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Uz1yZc16yclXEoLvml7ms5ij8QFFPjyUUgkHt-6FU9ploOSzYHSjAEAzeysxbS5nMj271Ww-UTdT9jRncdKbiJ2Ngbcm~qcsgPCGG3D96H1TNB0Tf9YhcC0SBq6R0PNQ6g-PXr-tM5iMdq85xVS1nrlMJbgx-pBHGHHu1hoCnjgDMVq6r6qxJM7kZhG66c6JO-Oan4cZKDFj0f4pONlyzJLyOYVJO4euRO7dzoxcw3Y7XWJqxtcPFfefF4X0dC7VvlyofZhLaaTe78vFZ3vzmRVmKaKryeMhwdvjiN5~gSN42zIkTScbAKeE8CKpZq4Zb~Xax-8PCO0BPJUqPb6XHg__"
-                    alt="Urban Jungle">
-                <p>Urban Jungle</p>
-                <span>Mural</span>
+    <div class="portfolio-container">
+        <section class="portfolio">
+            <div class="gallery">
+                <div class='gallery-item'>
+                    <img src="photo/1.png" alt="Urban Jungle">
+                    <p>Urban Jungle</p>
+                    <span>Mural</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="City Vibes">
+                    <p>City Vibes</p>
+                    <span>Poster</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="Graffiti Dreams">
+                    <p>Graffiti Dreams</p>
+                    <span>Canvas</span>
+                </div>
             </div>
+        </section>
+        <!-- second main body -->
+        <section class="portfolio">
+            <div class="gallery">
+                <div class='gallery-item'>
+                    <img src="photo/1.png" alt="Urban Jungle">
+                    <p>Street Art</p>
+                    <span>Mural</span>
+                </div>
 
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/3432/91ce/20b5f7036d498a7cc2fcf367443b13ba?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DS7wZG3-4tdeSSmtRJxsC33ChByhYUcxY4pGZfwFrKIo8w8ACnukLubHFwCH7~dq~XioKbUbLjfbOD~Xd490yFV0WGjNlBpgZ5s6w8jcYwSyT0e9jaWgNibA-LHwjiduvcOZnX7QNWDdiOVZbqfEldzLZIFTLS0OWDnuj-dkv0r9If4EcRvB2sB1oTUyG-eyYcZSrmI3piChP-dV13afbNkq3EljWXY~HSs8yGNjJkxKP-jDqgHoB22LJ9USRn9JNzsgreGUjrsTcX9SJNCPuBAMq1cdER60EQTFqwnX8HjRYgA5pGWrFwBZZyezQy-qI3RLqrl7bWgu44eh4E4bBg__"
-                    alt="City Vibes">
-                <p>City Vibes</p>
-                <span>Poster</span>
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="City Vibes">
+                    <p>Urban Legends</p>
+                    <span>Poster</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="Graffiti Dreams">
+                    <p>Concrete Jungle</p>
+                    <span>Mural</span>
+                </div>
             </div>
-
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/741a/d467/7fc9d3a3e23aace82e13713907c90540?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gbSLm0yuD~mHUaBBux~NiMDXwBqXPNdEwrc7lgKUIm3byadqOFNT4UVuhiWLQrBJ9m9uBu8KVa9t8-5bRedt9AHrCkA3AxX1psvTnw59dH7PqLHFWDUCtKcu1H10k98b2a5-UOOtHGbtlW0t-PlPLZDIYE1p0i5APhrEdF~6EOBvFiS6nCXpddSMFQ1Kv4WxuxwYriKKaPOxPd6FXH4V~-WkTZkwrk-A-K2J645S8TJMctYJJWw-R-6O3wJJmzh3yhtYWP~iA1Lc4S76-mDn6DBZVluhRVTy8ernASzkdAuUBheKK9MCb3z68qpu5jer4kHPbumb-bvRKy0BhHVMRA__"
-                    alt="Graffiti Dreams">
-                <p>Graffiti Dreams</p>
-                <span>Canvas</span>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
 
 
+        <!-- thitrd main box -->
 
+        <section class="portfolio">
+            <div class="gallery">
+                <div class='gallery-item'>
+                    <img src="photo/1.png" alt="Urban Jungle">
+                    <p>City Lights</p>
+                    <span>Poster</span>
+                </div>
 
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="City Vibes">
+                    <p>Graffiti Vibes</p>
+                    <span>Canvas</span>
+                </div>
 
-    <!-- second main body -->
-
-
-
-    <section class="portfolio">
-        <div class="gallery">
-            <div class='gallery-item'>
-                <img src="https://s3-alpha-sig.figma.com/img/1360/097a/bd4a2f086c80f16635565a0d985d67f1?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D5eJ8UQx-r7XrwnLE50rrXAK~ZP0YRG4GKUNBEbMz3FzUejPjIRUaIsup0jvdrTzd15Pa0S9-~Bew67pmT-OIdaEEFnxgDeRM4u6iNjnkNVClH-O3Wj3EFjZrlf15lckSPko3gXofzS3bmhz3tEzbWllwRtJ8kZT2nr8i~U7G7pTCkMVwrMenS5PfhUyMsoiZAcc02utbnea1Ij-41MufuPoz4CIF4jFSpagxyDb4HgLEqUM~9XBLDz4nNH-lJ-oQsXYkZxgaxHZTLUbgY6DQjjQEnTamjA75IhKHPEwXIC4vQiX0B7ViIEOVZ060xHcUrkuZcCGdZ8lVt06VHoEYw__"
-                    alt="Urban Jungle">
-                <p>Street Art</p>
-                <span>Mural</span>s
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/8352/3f8f/2b80966bccf26180f680bd86bed0d612?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Kz27MkYIYOlwjNdpbnHsIvS1DjWr4R89qedkXB309T50N2EWHX-FpVXYlG4mtZgm5EpnPVmJjzgEEUMr~JVpfe4hAPfT-S7XmdgSf~dtIZ6sjRiZWCUkQFO1omfdMpuSzVaFpQROprED59rZgDy--EqNrBVmTErIClWfagCF8QK4nAQoKg-74-zpywWw0LEoBxF9Sd1tpFGVFZLCIIeL6kLN57aQc7Ba3vHYq8pcJXCOzL7DzH2aj5GgwyRn~PfiSkGV5DclLjUff-3HS~-khrExH~gs2wGydQmHxf9y-KYuvHSkghNcbe2grFZb53MIZnjfaN68CA3q~qynYjpmIw__"
-                    alt="City Vibes">
-                <p>Urban Legends</p>
-                <span>Poster</span>
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/b71d/9cc2/6f8cdcb1dad5abfa9a446e8716c205b1?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KMTH8a~tjMtg~6Go7-xgcsAZ6xAcwhMOcaNI6NwXVahjbkdRZcXCjwQxQVKPXsN0xoBdx-budcoT14ntLwB1jEGXKpv9D3oHgPOjfQs8hwu8ZmenBcbAT98ISlsNVZ8zWWXl09MN3MjP0rz8ixissY10VGQJsQ-m8HOwByKsNNEyTLnBy-ECvXf6NBIn7zyBcTsr6qtHuZS66GjBXJAf0KGbkF~KFyetCQPdMogQ1LAlyTX5kfzLXToY11KtSbFyoVPyK0CPq2LXmPMk0coz5QZeqFU77vLt4KIagdod~tMeGLSpNkOFjTjAY3pdV724AiJcQsEFbD8c5rbXwLaKyw__"
-                    alt="Graffiti Dreams">
-                <p>Concrete Jungle</p>
-                <span>Mural</span>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- thitrd main box -->
-
-    <section class="portfolio">
-        <div class="gallery">
-            <div class='gallery-item'>
-                <img src="https://s3-alpha-sig.figma.com/img/62a6/2df4/27dc4de18f75b2c6db2c488d3b0d10e2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Iy5vEgRWlV3nYKuxDpUNpoSpQCSPALpbuPSV8WRKQf6gamFpMFVK1YJbQI5LUorBVtJYB97WBcAgk1BVFsvdxAp-ekQFmkeM7rMrIBZ1z8fgJ995CREfFIRiXHiqiDM8FN6m-yjUMkRUupxIMJTafjj-Ni0OsCUfWU9~S5Pxdvh1OLgxYfD1ZIkdlaKoYJfmHpDIh3qqLiTCiE7d-l1tiutoh9JBqt6NBqdgxXpV6K8J7sWbRSc3pp9rMgxuMv~1EKVN0WkZ3z28u0XEf1kH9qerf2-HY7y3G47ryKC5VevoK-EJ2xZ7qbnWdq6~f7zy3Unnyo~ZPIjwpFdYFAA7iQ__"
-                    alt="Urban Jungle">
-                <p>City Lights</p>
-                <span>Poster</span>
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/fe48/804d/dc00ca48bdecdb938b76a8efbe0f818e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e0ll7c6Bn5Bgrc65eIQ5GXfyrkXd7KvRkPT9RlLBqZAxOe0wKB1oTYgTq9y4NaHrgM~44vWCSurzC4NmyVNtiSvDhdgNONuGS6RT1mHfXvsPBCHWfP-YPo9Gfitt~sHSP5UnCCPZDP~30KtiuO9GB9AVCsTwie5ZCK5XCLs-FO7IdY7EonkupC3iwvfrCHZWwKBTDaIZ4Kq92YkJ2DMEoMiSGA6LBmayyjpsYI3DXP7q9-icRnRTsBDp98xTlYMbyjaHFUd7-bXPw5YO~FUaBNTarEvzQspUDORWJNhxaaBtvTe9txbu8d-NKdD2pkzDJ0kQXr~utFhQRa2uXUepzA__"
-                    alt="City Vibes">
-                <p>Graffiti Vibes</p>
-                <span>Canvas</span>
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://s3-alpha-sig.figma.com/img/9d81/ee82/431095b90f8afa15181a3e889e3f9842?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OhBAmf8ank1AeM20Ic~S~qzZJ9bwXu0~98iT23RJcxmoxb3sqyAnuO4ytxA~vLaHzRiy7oAEkareGK~~fJtLk61JpIekacbHIMhOjKGpWUnT4O4VPYhK7BsBSNL-t3cS~yqC6h-iU0Rk3~xiP-cpFSTHncRUK4B6oqlJXfYOtP4KlHDolVpOuMUeWlfyFCJfH-Po0ksVqxAQ0KKtO~76PiJB8569fEGsJVm6-AJ8fTJBOQRJPLngq~lBzHKY1BVoiBdpTbYHepsh~9XLq9cTep~LVw3SLSXgj4XDFTUnC~qm4hoJa9BNePiVg0QlvYz9cDvEi8mqPeW~xr~S5fhXRA__"
-                    alt="Graffiti Dreams">
-                <p>Urban Dreams</p>
-                <span>Mural</span>
-            </div>
-
-    </section>
+                <div class="gallery-item">
+                    <img src="photo/1.png" alt="Graffiti Dreams">
+                    <p>Urban Dreams</p>
+                    <span>Mural</span>
+                </div>
+        </section>
+    </div>
     <!-- images completed -->
 
 
@@ -141,74 +123,113 @@
     </div>
     <form class='contact-form'>
         <h3>Get In Touch</h3>
+        <div class="pin-input">
+            <input type="text" placeholder="0" />
+            <input type="text" placeholder="0" />
+            <input type="text" placeholder="0" />
+            <input type="text" placeholder="0" />
+            <input type="text" placeholder="0" />
+        </div>
         <input type='submit' class='submit' />
-        <a class='skip'>Skip</a>
+        <h6 class="skip-block">Skip</h6>
     </form>
-
+    
 
     <footer>
-        <div class="what">
-            <h3>WhatPeopleSay</h3>
+        <div class="feedback-title">
+            <h3>What People Say</h3>
         </div>
-            <div class="footer12">
-                    <div class="person1">
-                        <div class="block1">
-                            <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
-                                height="30px" width="30px" class=person1img />
-                            <div class='about-person'>
-                                <span class='person1name'>Alexis Rivera</span>
-                                <span class="person1pro">Art Collector</span>
-                                <span class="express1">Amazing Work!</span>
-                            </div>
-
-                        </div>
+        <div class="profile-footer">
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Alexis Rivera</span>
+                        <span class="person-profession">Art Collector</span>
+                        <span class="express-info">Amazing Work!</span>
                     </div>
 
-                    <div class="person1">
-                        <div class="block1">
-                            <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
-                                height="30px" width="30px" class=person1img />
-                            <div class='about-person'>
-                                <span class='person1name'>Alexis Rivera</span>
-                                <span class="person1pro">Art Collector</span>
-                                <span class="express1">Amazing Work!</span>
-                            </div>
+                </div>
+            </div>
 
-                        </div>
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Jordan Lee</span>
+                        <span class="person-profession">Gallery Owner</span>
+                        <span class="express-info">Truly inspiring art.</span>
                     </div>
 
-                        <div class="person1">
-                            <div class="block1">
-                                <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
-                                    height="30px" width="30px" class=person1img />
-                                <div class='about-person'>
-                                    <span class='person1name'>Alexis Rivera</span>
-                                    <span class="person1pro">Art Collector</span>
-                                    <span class="express1">Amazing Work!</span>
-                                </div>
+                </div>
+            </div>
 
-                            </div>
-                        </div>
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Taylor Morgan</span>
+                        <span class="person-profession">Street Artist</span>
+                        <span class="express-info">Unique and bold.</span>
+                    </div>
 
-                        <div class="people">
-                            <div class="person1">
-                                <div class="block1">
-                                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
-                                        height="30px" width="30px" class=person1img />
-                                    <div class='about-person'>
-                                        <span class='person1name'>Alexis Rivera</span>
-                                        <span class="person1pro">Art Collector</span>
-                                        <span class="express1">Amazing Work!</span>
-                                    </div>
+                </div>
+            </div>
 
-                                </div>
-                            </div>
-                        </div>
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Casey Kim</span>
+                        <span class="person-profession">Art Enthusiast</span>
+                        <span class="express-info">Highly recommend!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Alexis Rivera</span>
+                        <span class="person-profession">Art Collector</span>
+                        <span class="express-info">Amazing Work!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="person-details">
+                <div class="block-details">
+                    <img src="https://s3-alpha-sig.figma.com/img/0579/ea72/ab5a240a268a044083f61b880f380eba?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ca-Z2WWd0TTur2w5ngKz5bka6R13fJK15V3LO7piCIEusN581d8lEgXNvaEXDgHfX9F6rT3tEHStcQmVeoDDhB5~Szz-J935MTDah~hUvrzjvqCYEVkSwqElissephlPFmhqS6gOcLEF0tuckBZ4i9VgXZcClNvRGJ51mwHCLHGqHp8ADQEJqaBPaxqUJh1oOwWfgts98t8xvDMZGbbQ-JDA61v3DqhyL5OdG5emJEBbnS-Kg1mhRVN0i7N2fcvFwjY7P9sNfwOjcnaPOEDXkPCjFzNWIML-ZaEf~E1nCqALXoQfY9DsEd3oSRDPGcl45j~FEFE4036Det54~uWvlQ__"
+                        height="30px" width="30px" class=person1img />
+                    <div class='about-person'>
+                        <span class='person-name'>Alexis Rivera</span>
+                        <span class="person-profession">Art Collector</span>
+                        <span class="express-info">Amazing Work!</span>
+                    </div>
+
+                </div>
+            </div>
 
 
-
+        </div>
 
     </footer>
+
+
+    <div class="ending">
+        <h4>&copy;2023 Graffiti Art</h4>
+        <div class="ending-info">
+            <span>Contact</span>
+        </div>
+    </div>
 
 
 </body>
